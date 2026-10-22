@@ -54,7 +54,7 @@ Para entender de forma simples: Imagine o Webhook como uma "campainha digital". 
  
 ## Materiais gerados no Estúdio
  
-- [Mapa mental dos tipos mais comuns de Nodes do N8N]("materiais/mapa-mental-nodes.png")
+- [Mapa mental dos tipos mais comuns de Nodes do N8N](materiais/mapa-mental-nodes.png)
 - [Flash Cards para estudo em formato CSV](materiais/flashcards.csv)
 ## Estrutura do repositório
  
