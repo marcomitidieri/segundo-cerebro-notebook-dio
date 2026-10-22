@@ -1,0 +1,23 @@
+O que é um workflow no n8n?,Uma coleção de nós conectados que automatizam um processo completo do início ao fim.
+Qual é a função de um nó de gatilho (trigger node) no n8n?,"Iniciar a execução de um workflow em resposta a um evento, agendamento ou condição específica."
+O que é um nó (node) na estrutura do n8n?,"Um componente individual responsável por realizar uma etapa específica no fluxo, como buscar, processar ou enviar dados."
+O que representa o canvas no n8n?,"A área gráfica principal do editor onde os nós são dispostos, configurados e conectados."
+O que define uma execução (execution) no n8n?,"Uma corrida única de um workflow, disparada manualmente pelo usuário ou automaticamente por um gatilho em produção."
+Para que servem as credenciais (credentials) no n8n?,"Para armazenar com segurança dados de autenticação (chaves de API, tokens OAuth, usuários e senhas) usados na conexão com serviços externos."
+Qual é a diferença entre a versão de rascunho (draft) e a publicação (publish) de um workflow?,O rascunho salva as edições de trabalho sem executá-las automaticamente; a publicação ativa a versão para rodar em produção quando o gatilho disparar.
+O que é uma expressão (expression) no n8n?,Um trecho de código JavaScript (ex: {{ $json.campo }}) que preenche parâmetros de nós dinamicamente com dados obtidos de etapas anteriores.
+Qual é a finalidade do recurso Data Table no n8n?,"Armazenar dados estruturados em tabelas nativas dentro da plataforma, dispensando o uso de bancos de dados externos simples."
+O que é um sub-workflow no n8n?,Um workflow secundário chamado por outro fluxo principal para dividir tarefas grandes em partes menores e reutilizáveis.
+O que diferencia um nó da comunidade (community node) de um nó nativo?,"O nó da comunidade é criado e compartilhado por usuários externos, precisando ser instalado na instância para adicionar integrações não padrão."
+Como funciona o recurso de fixação de dados (data pinning) no n8n?,Congela temporariamente a saída de um nó para permitir o desenvolvimento contínuo do workflow sem refazer requisições a serviços externos.
+O que é um nó do tipo cluster (cluster node) no n8n?,"Um conjunto estruturado formado por um nó raiz estendido por sub-nós para fornecer recursos avançados, como agentes e cadeias de IA."
+Qual é a função do nó raiz (root node) em um cluster no n8n?,Definir a função principal do cluster (como executar um agente ou cadeia de IA) e receber a conexão dos sub-nós.
+Qual é o papel de um sub-nó (sub-node) em um cluster node de IA?,"Conectar-se ao nó raiz para estender suas capacidades, fornecendo recursos como modelos de linguagem, memória ou ferramentas."
+O que faz o nó AI Agent dentro de um workflow do n8n?,Aplica um modelo de linguagem (LLM) para interpretar requisições e decidir autonomamente quais ferramentas acionar para cumprir uma tarefa.
+Para que serve o nó HTTP Request no n8n?,Enviar requisições para endereços web (endpoints de APIs) e retornar os dados fornecidos para uso no workflow.
+Qual é a função do nó Edit Fields (Set) no n8n?,"Transformar dados entre etapas, permitindo criar, renomear ou reformatar valores antes de repassá-los ao nó seguinte."
+O que é o n8n Assistant?,"Um assistente baseado em IA generativa que permite criar, editar e testar workflows a partir de comandos em linguagem natural."
+O que é um template no ecossistema do n8n?,Um fluxo de trabalho pré-construído disponibilizado pela n8n ou pela comunidade que pode ser importado e adaptado.
+Qual é o objetivo de usar o nó Schedule Trigger?,Iniciar a execução do workflow automaticamente em horários ou intervalos de tempo fixos (ex: diariamente às 8h).
+O que é uma variável personalizada (custom variable) no n8n?,Uma string de texto somente leitura que pode ser reutilizada entre múltiplos workflows de uma instância ou projeto.
+"Por que entender a lógica de programação (como condições e repetições) é essencial no n8n, mesmo sendo no-code?","Porque é necessário raciocinar como os dados fluem entre blocos, tratar exceções e definir desvios condicionais na automação."
